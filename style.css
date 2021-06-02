@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcecdd;
+  color: #000000;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+span {
+  font-size: 1.5em;
+  font-family: 'Caveat', cursive;
+}
+
+.header-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container1 {
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
+
+.images img {
+  border-radius: 30px;
+  height: auto;
+}
+
+.container3 {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container3 h1 {
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.item1 ,.item2, .item3, .item4 {
+  padding: 20px 10px;
+  width: 30%;
+  height: 330px;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.item1 img, .item2 img, .item3 img, .item4 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.item1 h2, .item2 h2, .item3 h2, .item4 h2 {
+  margin-bottom: 10px;
+}
+
+.container2 h2 {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 9px;
+}
+
+.container2 {
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+  border-top: 1px solid #ff6701;
+  border-bottom: 1px solid #ff6701;
+  margin-bottom: 20px;
+}
+
+.container4 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container4 h1 {
+  margin-bottom: 20px;
+}
+
+.container4 iframe {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #ff6701;
+}
+
+a:active {
+  color: #fea82f;
+}
+
+img:hover {
+  cursor: none;
+}
